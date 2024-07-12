@@ -1,0 +1,49 @@
+@media (max-width:800px) {
+    header {
+        font-size: 10px;
+        flex-wrap: wrap;
+        gap: 2vh;
+        overflow-x: scroll;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .user-cart{
+        width: 100px;
+        justify-content: space-between;
+        margin-bottom:2vh;
+    }
+
+    li img{
+        height: 10px;
+    }
+
+    nav a:hover {
+        font-size: small;
+        font-weight: 600;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .search{
+        width: 60%;
+    }
+    .alert-bar {
+        text-align: center;
+        padding-top: 0.2vh;
+        font-size: 0.5rem;
+        border-bottom: 3vh;
+    }
+
+
+    .product-collection {
+        overflow: scroll;
+    }
+
+    .product{
+        margin: 10px;
+    }
+    
+}
