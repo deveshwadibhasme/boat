@@ -11,9 +11,13 @@
     }
 
     .user-cart{
-        width: 100px;
+        width: 80px;
         justify-content: space-between;
         margin-bottom:2vh;
+    }
+
+    .user-cart img{
+        height: 20px;
     }
 
     li img{
@@ -29,6 +33,7 @@
 
     .search{
         width: 60%;
+        margin-bottom: 5px;
     }
     .alert-bar {
         text-align: center;
@@ -37,13 +42,16 @@
         border-bottom: 3vh;
     }
 
+    .banner {
+        background-size: auto 70%; 
+    }
 
     .product-collection {
         overflow: scroll;
     }
 
-    .product{
-        margin: 10px;
+    .products{
+        margin-right: 10px;
     }
     
 }

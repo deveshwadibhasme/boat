@@ -126,7 +126,6 @@ header .search {
     position: relative;
 }
 
-
 .offer-info {
     margin: 0 auto;
     display: flex;
@@ -219,7 +218,6 @@ header .search {
 .img4{
     background-image: var(--product-img4);
 }
-
 .products .feature{
     margin: 0 auto;
     /* margin-bottom: -12px; */
@@ -230,6 +228,10 @@ header .search {
     border-radius: 20px;
     text-align: center;
     align-self: flex-end;
+}
+
+.product-info{
+    padding: 9px;
 }
 
 .item-collection {
